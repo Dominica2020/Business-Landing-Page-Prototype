@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+#ioa-logo {
+  width: 200px;
+}
+
+.nav-link {
+  margin-top: 50px;
+}
+
+h1 {
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+#about-section {
+  margin-top: 50px;
+  height: 50vh;
+}
+
+#about-icon {
+  width: 175px;
+  display: inline;
+  border-radius: 50%;
+}
