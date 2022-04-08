@@ -13,17 +13,47 @@ body {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 2.5px;
 }
 
-#about-section {
-  margin-top: 50px;
-  height: 50vh;
+#site-banner {
+  text-align: center;
 }
 
-#about-icon {
+#banner-h1 {
+  position: relative;
+  z-index: 5;
+  color: white;
+  margin-top: -10%;
+}
+
+#banner-app {
+  position: relative;
+  z-index: 1;
+}
+
+#about-section {
+  margin-top: 250px;
+}
+
+#about-icon,
+#service-icon {
   width: 175px;
   display: inline;
-  border-radius: 50%;
+}
+
+#service-section,
+#contact-section {
+  margin-top: 100px;
+}
+
+#contact-section {
+  background-color: rgb(15, 22, 31);
+  height: 60vh;
+}
+
+#footer-section {
+  background-color: white;
+  height: 10vh;
 }
