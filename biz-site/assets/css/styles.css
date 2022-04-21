@@ -69,12 +69,29 @@ span {
 #contact-section {
   background-color: rgb(15, 22, 31);
   height: 60vh;
+  text-align: center;
+  color: white;
 }
-/* Footer */
 
+#contact-heading {
+  margin-top: 40px;
+}
+
+form {
+  color: white;
+}
+
+input {
+  background-color: rgb(15, 22, 31);
+  margin-top: 15px;
+  color: white;
+  width: 30%;
+}
+
+/* Footer */
 footer {
   background-color: white;
-  height: 10vh;
+  height: 12vh;
   display: flex;
   justify-content: left;
   align-items: center;
