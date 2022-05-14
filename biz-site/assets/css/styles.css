@@ -2,49 +2,40 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Quicksand", sans-serif;
+  /*font-family: 'Martel Sans', sans-serif;*/
 }
 
-/* Banner & Nav */
+/* Nav */
 
-#banner-app {
-  position: relative;
-  z-index: 1;
+#comp-name {
+  Font-family: 'Rubik Glitch', cursive;
+  font-weight: 400;
+  font-size: 55px;
+  margin: 40px 0px 0px 20px;
+  display: inline-block;
+  letter-spacing: 1.5px;
 }
 
-.nav-link {
-  position: relative;
-  margin-top: -55%;
-  z-index: 5;
+#make-blue {
+  color: dodgerblue;
+}
+
+nav {
+  text-align: right;
+  padding: 30px;
 }
 
 a {
   text-decoration: none;
-  color: white;
-  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  margin-right: 40px;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 a:hover {
   color: dodgerblue;
-}
-
-#link-span {
-  visibility: hidden;
-}
-
-#banner-h1 {
-  position: relative;
-  z-index: 5;
-  color: white;
-  margin-top: -10%;
-}
-
-span {
-  color: dodgerblue;
-  font-weight: 900;
-}
-
-.center-text {
-  text-align: center;
 }
 
 /* About & Services */
