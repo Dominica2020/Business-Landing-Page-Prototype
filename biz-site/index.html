@@ -24,19 +24,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Rubik+Glitch&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Rubik+Glitch&family=Rubik+Mono+One&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <!--Navbar Section-->
-    <div class="container-fluid" id="site-banner1">
+    <div class="container-fluid" id="site-nav">
       <div class="row">
         <div class="col">
           <h1 id="comp-name">Isle of <span id="make-blue">Apps</span></h1>
@@ -50,39 +44,41 @@
       </div>
     </div>
 
-    <!--Main Content Top Section-->
+    <!--Banner Section-->
+    <div class="container-fluid" id="site-banner">
+      <div class="row">
+        <div class="col"></div>
+      </div>
+    </div>
 
-    <!--About Section-->
-    <div class="container" id="about-section">
+    <!--Who We Are Section-->
+    <div class="container" id="service-section">
       <div class="row">
         <div class="col-6">
           <h2>
             <img
-              src="assets/images/lamp.png"
-              id="about-icon"
-              alt="light-bulb"
-            />Personalized Service
+              src="assets/images/shell-solo.png"
+              id="shell-icon"
+              alt="shell"
+            />Why Choose Us?
           </h2>
         </div>
         <div class="row">
           <div class="col-6">
             <p>
-              As a small remote-based company we excel in personalized customer
-              service. Our M.O. is to save you time and eliminate the headache
-              of finding capable developers. We proudly serve clients in the USA
-              and abroad.
+              We are a new and dynamic small development company specialized in
+              building fully-customized web applications and sites. A clear
+              <strong>4-step process</strong> and dedicated customer service
+              sits at the core of our mission. We want to cut out the clutter
+              and provide our clients with the opportunity to feel free to
+              explore their ideas and vision. We do all the work with no hidden
+              fees!
             </p>
-            <p id="read-more">Read More +</p>
-            <p class="hidden-1">- Avoid endless searching for developers</p>
-            <p class="hidden-1">
-              - Cut out the middle-man, no freelancer sites with obscure contact
-              rules
-            </p>
-            <p class="hidden-1">- We make collaboration easy</p>
           </div>
         </div>
       </div>
     </div>
+
     <!--Services Section-->
     <div class="container" id="service-section">
       <div class="row">
@@ -101,10 +97,12 @@
               See your idea come to life. Fully-customized web applications
               unlike the limited features of popular site builders. Have
               complete control of your information and data. If you ever want to
-              take your site data elsewhere, we'll make the process clear and
+              take your site data elsewhere, we will make the process clear and
               easy.
             </p>
-            <p id="learn-more">Learn More +</p>
+            <p id="learn-more" onclick="expandMore()">
+              Learn More <span id="expand-2">+</span>
+            </p>
             <p class="hidden-2">
               - We specialize in full-stack web applications
             </p>
@@ -114,6 +112,41 @@
         </div>
       </div>
     </div>
+
+    <!--About Section-->
+    <div class="container" id="about-section">
+      <div class="row">
+        <div class="col-6">
+          <h2>
+            <img
+              src="assets/images/lamp.png"
+              id="about-icon"
+              alt="light-bulb"
+            />Personalized Service
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>
+              We excel in personalized customer service by having passionate,
+              collaborative, & knowledgeable individuals on our team. Our goal
+              is to save you time and eliminate the headache of finding capable
+              developers. We proudly serve clients in the USA and abroad.
+            </p>
+            <p id="read-more" onclick="expandMore()">
+              Read More <span id="expand-1">+</span>
+            </p>
+            <p class="hidden-1">- Avoid endless searching for developers</p>
+            <p class="hidden-1">
+              - Cut out the middle-man, no freelancer sites with obscure contact
+              rules
+            </p>
+            <p class="hidden-1">- We make collaboration easy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--Contact Section-->
     <div class="container-fluid" id="contact-section">
       <div class="row">
@@ -134,7 +167,7 @@
               name=""
               placeholder="How Can We Help?"
             /><br />
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" id="submit-button" />
           </form>
         </div>
       </div>
@@ -143,9 +176,9 @@
     <footer id="footer">
       <img
         id="logo"
-        src="assets/images/shell-large font.png"
+        src="assets/images/shell-solo.png"
         alt="logo"
-        width="90px"
+        width="70px"
       />
       <p id="copyright">© Isle of Apps 2022</p>
     </footer>
@@ -158,3 +191,18 @@
     <script src="assets/javascript/ioa.js"></script>
   </body>
 </html>
+
+<!--
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+-->

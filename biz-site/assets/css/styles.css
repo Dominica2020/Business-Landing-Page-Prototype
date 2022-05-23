@@ -1,8 +1,22 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Quicksand", sans-serif;
-  /*font-family: 'Martel Sans', sans-serif;*/
+  font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+strong {
+  font-weight: 700;
 }
 
 /* Nav */
@@ -11,7 +25,7 @@ body {
   Font-family: 'Rubik Glitch', cursive;
   font-weight: 400;
   font-size: 55px;
-  margin: 40px 0px 0px 20px;
+  margin: 25px 0px 0px 20px;
   display: inline-block;
   letter-spacing: 1.5px;
 }
@@ -28,7 +42,8 @@ nav {
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-weight: 400;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 700;
   margin-right: 40px;
   font-size: 30px;
   letter-spacing: 2px;
@@ -45,9 +60,10 @@ a:hover {
 }
 
 #about-icon,
-#service-icon {
+#service-icon, #shell-icon {
   width: 175px;
   display: inline;
+  padding-right: 20px;
 }
 
 #service-section,
@@ -55,10 +71,23 @@ a:hover {
   margin-top: 100px;
 }
 
+#expand-1, #expand-2 {
+  color:dodgerblue;
+  font-weight: 700;
+}
+
+#expand-1:hover, #expand-2:hover {
+  cursor: pointer;
+}
+
+.hidden-1, .hidden-2 {
+  display: none;
+}
+
 /* Contact */
 
 #contact-section {
-  background-color: rgb(15, 22, 31);
+  background-color: dodgerblue;
   height: 60vh;
   text-align: center;
   color: white;
@@ -66,6 +95,9 @@ a:hover {
 
 #contact-heading {
   margin-top: 40px;
+  Font-family: 'Rubik Glitch', cursive;
+  font-weight: 400;
+  font-size: 45px;
 }
 
 form {
@@ -73,10 +105,25 @@ form {
 }
 
 input {
-  background-color: rgb(15, 22, 31);
   margin-top: 15px;
-  color: white;
+  color: rgb(24, 22, 22);
   width: 30%;
+  height: 50px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+#submit-button {
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: chartreuse;
+  letter-spacing: 1.5px;
+}
+
+#submit-button:hover {
+  background-color: yellow;
+  margin-top: 20px;
+  transform: scaleY(1.5);
 }
 
 /* Footer */
@@ -87,12 +134,13 @@ footer {
   justify-content: left;
   align-items: center;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 #copyright {
   font-size: 12px;
   margin: 0 10px;
+  Font-family: 'Rubik Glitch', cursive;
 }
 
 #logo {
