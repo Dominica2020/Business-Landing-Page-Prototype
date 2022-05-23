@@ -4,6 +4,11 @@ body {
   font-family: 'Comfortaa', cursive;
 }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 h2 {
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 25px;
@@ -20,7 +25,6 @@ strong {
 }
 
 /* Nav */
-
 #comp-name {
   Font-family: 'Rubik Glitch', cursive;
   font-weight: 400;
@@ -46,17 +50,21 @@ a {
   font-weight: 700;
   margin-right: 40px;
   font-size: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 a:hover {
   color: dodgerblue;
 }
 
-/* About & Services */
+/* Site Banner */
+#banner-img {
+  
+}
 
+/* About & Services */
 #about-section {
-  margin-top: 175px;
+  margin-top: 140px;
 }
 
 #about-icon,
@@ -85,10 +93,9 @@ a:hover {
 }
 
 /* Contact */
-
 #contact-section {
   background-color: dodgerblue;
-  height: 60vh;
+  height: 65vh;
   text-align: center;
   color: white;
 }
@@ -146,3 +153,12 @@ footer {
 #logo {
   border-radius: 50%;
 }
+
+
+/* 
+#banner-img {
+  height: 75vh;
+  width: 100vw;
+}
+
+*/
