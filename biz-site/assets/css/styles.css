@@ -88,7 +88,7 @@ a:hover {
   cursor: pointer;
 }
 
-.hidden-1, .hidden-2 {
+#hidden-1, #hidden-2 {
   display: none;
 }
 
@@ -105,6 +105,10 @@ a:hover {
   Font-family: 'Rubik Glitch', cursive;
   font-weight: 400;
   font-size: 45px;
+}
+
+#make-black {
+  color: black;
 }
 
 form {
@@ -128,7 +132,6 @@ input {
 }
 
 #submit-button:hover {
-  background-color: yellow;
   margin-top: 20px;
   transform: scaleY(1.5);
 }
@@ -146,19 +149,20 @@ footer {
 
 #copyright {
   font-size: 12px;
-  margin: 0 10px;
+  margin: 0 10px 0 20px;
   Font-family: 'Rubik Glitch', cursive;
 }
 
-#logo {
-  border-radius: 50%;
-}
 
 
 /* 
 #banner-img {
   height: 75vh;
   width: 100vw;
+}
+
+#logo {
+  border-radius: 50%;
 }
 
 */
